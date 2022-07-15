@@ -1,0 +1,3 @@
+<?php include_once("header.php"); ?>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.8381126227764!2d107.16835761519042!3d-6.285000295451086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6984caf54df305%3A0xb7156354ad963e4d!2sPresident%20University%20-%20Kampus%2C%20Kuliah%20di%20Cikarang!5e0!3m2!1sid!2sid!4v1641110468096!5m2!1sid!2sid" width="1920" height="1080" style="border:0;" allowfullscreen="" loading="lazy"></iframe>

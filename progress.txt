@@ -1,0 +1,5 @@
+ROOM = rooms.php
+FACILITIES =
+CUSTOMER = new_register.php
+PAYMENT =
+TRANSACTION =

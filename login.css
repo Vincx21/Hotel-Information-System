@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: "login banner";
+    grid-template-columns: .477fr 1fr;
+    /* grid-template-rows: 1fr; */
+}
+
+.loginform {
+    grid-area: login;
+    background: #3498db;
+    padding-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.4) 2.4px 2.4px 3.2px;
+    z-index: 1;
+    
+}
+
+.banner {
+    grid-area: banner;
+    /* background-color: rgb(66, 98, 142); */
+    background-image: url("img/UIHotel.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.loginform form {
+    /* border: 1px solid white; */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    margin: 0 50px;
+    padding: 20px 40px;
+}
+
+.loginform label {
+    padding-top: 10px;
+    float: left;
+}
+
+.loginform input {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 13px;
+}
+
+.loginform input[type=text]:focus, input[type=password]:focus {
+    border-radius: 5px;
+    background-color: #0be881;
+    outline: none;
+}
+
+p{
+    color: white;
+    margin: 10px 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #0be881;
+}
+
+.btn {
+    padding: 8px 130px;
+    font-weight: bold;
+}
